@@ -1,0 +1,10 @@
+Tipos de etiqueta:
+
+Headings:
+h1 - h2 - h3 - h4 - h5 - h6 (el h1 es el mas grande, h6 el mas chico)
+
+Parrafo:
+p 
+
+Boton:
+button

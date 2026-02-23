@@ -1,0 +1,8 @@
+¿Que es HTML?
+
+HyperText Markup Language <- Esto no
+Crea la estructura (contenido) de la pagina web
+
+¿Que es una etiqueta en HTML?
+- Es lo que indica el principio y el final de un elemento del contenido y que elemento es.
+

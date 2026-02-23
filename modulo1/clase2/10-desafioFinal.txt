@@ -1,0 +1,21 @@
+Debe tener:
+
+Nombre (mín 3 caracteres)
+
+Email obligatorio
+
+Teléfono
+
+Motivo de contacto (select)
+
+Mensaje (textarea)
+
+Botón enviar
+
+Con:
+
+required
+
+minlength
+
+labels correctamente vinculados

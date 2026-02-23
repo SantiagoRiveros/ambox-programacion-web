@@ -1,0 +1,17 @@
+text = Sirve para valores de tipo texto
+
+email = Sirve para validar que lo que se ingresa sea de tipo email
+
+password = Sirve para "ocultar" lo que se escribe en el input, especialmente util para passwords
+
+number = Sirve para ingresar SOLO numeros, no permite escribir otra cosa, y cuenta con un control que se puede manejar con el mouse
+
+checkbox = Es una casilla para "tildar"
+
+radio = Es un boton circular, el cual en general se usa para "multiple choice"
+
+date = Es para elegir una fecha
+
+submit = sirve para "enviar" un formulario
+
+tel = Valida que tenga formato de telefono

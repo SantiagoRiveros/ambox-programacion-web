@@ -1,0 +1,33 @@
+<div></div> <- o Division es una etiqueta que indica una "seccion" en la pagina
+debe evitarse su uso desmedido o indiscriminado ya que es una etiqueta MUY generica
+
+<header></header> <- Es el encabezado de pagina
+
+<section></section> <- Para indicar una seccion
+
+<article></article> <- Contenido independiente (blog, noticia).
+
+<nav></nav> <- Para indicar barra de navegacion
+
+<footer></footer> <- Indica el pie de pagina
+
+<main></main> <- Indicac la seccion principal de una pagina
+
+<a></a> <- o Anchor, sirve basicamente como hipervinculo o para linkear alguna seccion de la pagina
+
+<form></form> <- Etiqueta que se utiliza para englobar formularios
+
+<label></label> <- Se utiliza como "titulo" de un input, se la usa ya que da ciertas ventajas en accesibilidad
+
+<input> <- Se utiliza para que el usuario de alguna manera ingrese informacion, hay varios tipos de input
+
+<button></button> <- Boton, se utiliza para tambien "lanzar" un formulario o enviarlo
+
+<select></select> <- Es un dropdown o "desplegable" donde elegiremos una entre varias opciones
+<option></option> <- Son las opciones del select, deben ir anidadas dentro del select
+
+<textarea></textarea> <- Es una caja de texto, que se puede "agrandar y achicar" para poner un mensaje de multiples lineas
+
+
+Usamos estas etiquetas por el SEO (Search Engine Optimization) o por asi decirlo, posicionarnos mejor en Google
+Ademas de eso, por la accesibilidad (Es decir, que la pagina sea "navegable" para personas con capacidades diferentes)

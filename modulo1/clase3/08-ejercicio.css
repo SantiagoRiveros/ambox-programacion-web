@@ -1,0 +1,63 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 50px 20px;
+    width: 300px;
+    border: 1px solid beige;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px gray;
+}
+
+button {
+    margin: auto;
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid beige
+}
+
+button:hover {
+    background-color: beige;
+}
+
+form input {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+select {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    width: 150px;
+    margin: auto;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terminosCondiciones {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.inputRadio {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding-left: 100px;
+    padding-right: 100px
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="08-ejercicio.css">
+</head>
+
+<body>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" minlength="3" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su telefono">
+        <label>Tipo de cliente</label>
+
+        <div class="inputRadio">
+            <label for="nuevo">Nuevo</label>
+            <input type="radio" name="cliente" id="nuevo">
+
+        </div>
+        <div class="inputRadio">
+            <label for="habitual">Habitual</label>
+            <input type="radio" name="cliente" id="habitual">
+        </div>
+        <label for="motivo">Motivo de contacto</label>
+        <select name="motivo" id="motivo">
+            <option selected disabled>Seleccione un motivo</option>
+            <option>Consulta</option>
+            <option>Trabajo</option>
+        </select>
+        <label for="compras">Cantidad de compras</label>
+        <input type="number" min="0" max="100" id="compras">
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje"></textarea>
+        <div class="terminosCondiciones">
+            <label for="checkbox">Aceptar T&C</label>
+            <input type="checkbox" id="checkbox">
+        </div>
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

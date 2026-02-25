@@ -1,0 +1,22 @@
+Errores comunes:
+
+-Olvidarse del ;
+
+-Escribir mal las clases.
+
+-Confundir . con #
+
+-No entender margin vs padding.
+
+-No linkear el CSS correctamente.
+
+----------------------------------
+
+Solución rápida:
+Siempre revisar:
+
+Consola.
+
+Inspector.
+
+Si el archivo CSS está bien conectado.

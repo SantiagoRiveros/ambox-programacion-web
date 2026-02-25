@@ -1,0 +1,12 @@
+¿Que hace HTML?
+Estructura de la pagina
+
+¿Que problemas o que faltantes tiene una pagina SOLO con HTML?
+Le falta visual y funcionalidad
+
+¿Que es CSS?
+Cascading Stylesheets es la forma de darle estilo a nuestra pagina
+
+Frase Clave:
+HTML Estructura, CSS Diseña.
+

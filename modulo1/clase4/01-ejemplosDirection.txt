@@ -1,0 +1,6 @@
+para flex-direction tenemos 4 opciones:
+
+-row (fila)
+-column (columna)
+-row-reverse (fila inversa)
+-column-reverse (columna inversa)

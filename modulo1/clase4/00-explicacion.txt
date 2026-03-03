@@ -1,0 +1,26 @@
+¿Como se alinearian 3 cajas diferentes sin usar display flex?
+
+puede ser con:
+-inline block
+-margin y padding
+-grid, float, etc.
+
+Flexbox nacio para resolver el problema del alineado y
+distribucion
+
+----------------------------
+
+Flexbox trabaja con
+
+-Contenedor (padre)
+-items (hijo)
+
+----------------------------
+
+cuando yo pongo:
+
+form{
+    display:flex;
+}
+
+¿de quien cambio la disposicion? ¿Del padre o del hijo?

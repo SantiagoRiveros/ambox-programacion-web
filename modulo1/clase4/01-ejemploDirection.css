@@ -1,0 +1,33 @@
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#column {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+}

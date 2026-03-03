@@ -1,0 +1,16 @@
+En nuestra pagina, tenemos 2 ejes:
+
+main axis o principal -> Horizontal (por defecto)
+Cross axis -> Vertical
+
+justify-content -> Alinea en el eje principal
+
+flex-start -> Al inicio del eje Horizontal
+flex-end -> Al final del eje Horizontal
+center -> Todos los elementos centrados
+space-between -> Distancia entre los elementos
+space-around -> Distancia entre los elementos y los margenes izquierda-derecha
+space-evenly -> Distancia entre los elementos y doble distancia con los margenes
+
+justify-content -> Para algo en flex Horizontal
+align-items -> Para algo en flex vertical

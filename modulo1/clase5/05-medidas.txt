@@ -1,0 +1,137 @@
+Hablemos de medidas:
+
+Pixeles (px)
+Siempre mide lo mismo.
+
+Ej:
+
+.cards{
+    width: 500px;
+    height: 100px;
+}
+
+¿Que significa?
+-Siempre mide lo mismo
+-No depende del padre
+-No escala automaticamente
+
+Problema:
+-No es flexible
+-Puede romper el diseño en pantallas chicas
+
+Ideal para:
+-Bordes pequeños
+-Sombras
+-Ajustes muy especificos
+
+-------------------------------------------
+
+Porcentaje (%)
+Unidad relativa al tamaño del elemento padre.
+
+.cards{
+    width: 50%;
+}
+
+¿Que significa?
+-Ocupa el 50% del ancho del elemento padre
+-Cambia si el padre Cambia
+
+Ejemplo:
+Si el padre mide 1000px → 50% = 500px
+Si el padre mide 400px → 50% = 200px
+
+Ideal para:
+-Layouts fluidos
+-Columnas
+-Anchos responsive
+
+-------------------------------------------
+
+em
+Unidad relativa al font-size del elemento padre
+
+¿que significa?
+si el padre tiene:
+    font-size: 20px;
+
+entonces:
+    2em = 40px 
+
+IMPORTANTE:
+em se acumula (hereda en cadena)
+
+Ejemplo:
+
+<body>
+    <div>
+        <p></p>
+    </div>
+</body>
+
+body { font-size: 16px; }
+div { font-size: 2em; }      /* 32px */
+p { font-size: 2em; }        /* 64px 😱 */
+
+Esto puede hacer lio si no se tiene en cuenta.
+
+ideal para:
+-Componentes escalables
+-Espaciados relativos a texto
+
+---------------------------------------------------
+rem
+Unidad relativa al font-size del <html> (root element).
+
+por defecto:
+html { font-size: 16px; }
+
+entonces:
+    2rem = 32px;
+
+diferencias claves con em:
+-em depende del padre, rem depende del html(root)
+-No se acumula
+
+Por eso se usa mas rem hoy en dia que em.
+
+------------------------------------------------------
+vh
+Viewport Height (alto de la pantalla).
+
+body{
+    height: 100vh;
+}
+
+¿Qué significa?
+
+100vh = 100% del alto visible del navegador.
+
+50vh = mitad de la pantalla.
+
+Ideal para:
+-Hero sections
+-Pantallas completas
+-Layouts fullscreen
+
+--------------------------------------------------------
+
+vw
+Viewport Width (Ancho de pantalla)
+
+width: 100vw;
+
+
+100vw = 100% del ancho visible del navegador.
+
+Ideal para:
+-Secciones que ocupan todo el ancho
+-Tipografía fluida
+
+Unidad	    ¿Relativa a qué?	¿Flexible?	¿Se acumula?
+px	        Nada (fija)	            ❌	       ❌
+%	        Tamaño del padre	    ✅	       ❌
+em	        Font-size del padre	    ✅	       ✅
+rem	        Font-size del html	    ✅	       ❌
+vh	        Alto del viewport	    ✅	       ❌
+vw	        Ancho del viewport	    ✅	       ❌

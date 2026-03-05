@@ -1,0 +1,46 @@
+/* Extra small devices (teléfonos chicos) */
+/* default - sin media query */
+
+/* Small devices (teléfonos grandes) */
+@media (min-width: 576px) { }
+
+/* Tablets */
+@media (min-width: 768px) { }
+
+/* Laptops */
+@media (min-width: 992px) { }
+
+/* Desktops */
+@media (min-width: 1200px) { }
+
+/* Pantallas grandes */
+@media (min-width: 1400px) { }
+
+
+0 - 575 / 576 - 767 / 768 - 991 / 992 - 1199 / 1200 - 1399 / 1400 ...
+  MEC       Movil      TABLET      LAPTOP       DESKTOP      PG 
+
+MEC = Movil extra chico
+
+PG = Pantalla grande
+
+
+Breakpoint  	Dispositivo aproximado
+0px         	Mobile base
+576px	        Teléfonos grandes
+768px	        Tablets
+992px	        Laptops
+1200px	        Desktop estándar
+1400px	        Desktop grande / 4K
+
+------------------------------
+
+LAS MAS IMPORTANTES (Mobile First):
+
+/* Base mobile */
+
+/* Tablet */
+@media (min-width: 768px) { }
+
+/* Desktop */
+@media (min-width: 1024px) { }

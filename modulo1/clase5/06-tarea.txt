@@ -1,0 +1,61 @@
+-Objetivo:
+
+Construir una landing page completamente responsive aplicando:
+
+    Enfoque Mobile-First
+
+    Al menos 2 breakpoints
+
+    Uso correcto de unidades relativas
+
+    Layout con Flexbox
+
+Crear una landing page para:
+
+    🚀 Una app ficticia llamada "FocusApp"
+    (App para organizar tareas y mejorar productividad)
+
+-Requisitos:
+
+Debe estar hecha Mobile-First
+Secciones:
+            Navbar
+
+                Logo (texto)
+
+                3 links
+
+                En mobile: vertical
+
+                En desktop: horizontal
+            Hero Section
+                Título
+
+                Párrafo
+
+                Botón
+
+                Imagen (puede ser placeholder)
+            Cada card debe tener:
+
+                Título
+
+                Descripción
+
+                Ícono o emoji
+
+                Mobile:
+
+                    Cards en columna
+
+                Desktop:
+
+                    Cards en fila
+
+Lo que voy a evaluar
+
+✔️ Que realmente sea Mobile-First
+✔️ Que no tenga scroll horizontal
+✔️ Que cambie correctamente en 768px
+✔️ Que usen unidades relativas
+✔️ Que el código esté ordenado

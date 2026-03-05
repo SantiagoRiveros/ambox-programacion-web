@@ -1,0 +1,40 @@
+Nosotros tenemos 2 maneras principales de realizar un acercamiento a lo que es el desarrollo del CSS:
+
+-Mobile First
+-Desktop First
+
+En mobile First nosotros vamos a empezar haciendo el css pensandolo para moviles (celulares)
+Y aplicamos media queries para los casos que se use en escritorio:
+ 
+EJ:
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 769px){
+    .cards{
+            flex-direction: row;
+    }
+}
+
+¿Porque se hace esto?
+Porque aprox. el 60% del trafico en internet esta realizado en moviles.
+Ademas, es mas facil realizar el diseño pensando en movil (poco espacio) y luego adaptarlo al Desktop
+
+Desktop first:
+Primero hacemos el diseño para escritorio y luego vamos a movil con media queries.
+
+Ej:
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px){
+    .cards{
+            flex-direction: column;
+    }
+}

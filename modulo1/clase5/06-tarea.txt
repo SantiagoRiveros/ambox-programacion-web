@@ -13,7 +13,7 @@ Construir una landing page completamente responsive aplicando:
 Crear una landing page para:
 
     🚀 Una app ficticia llamada "FocusApp"
-    (App para organizar tareas y mejorar productividad)
+    (App para organizar tareas y mejorar productividad) O LO QUE QUIERAN
 
 -Requisitos:
 

@@ -1,0 +1,28 @@
+Error 1:
+
+Poner Transition en el hover
+
+button:hover{
+    transition: all 0.3s ease;
+}
+
+------------------------------------
+
+button{
+    transition: all 0.3s ease;
+}
+
+------------------------------------
+
+Error 2:
+
+Olvidar el transform
+
+button:hover{
+    scale: 1.1;
+}
+
+-------------------------------------
+button:hover{
+    transform: scale(1.1);
+}

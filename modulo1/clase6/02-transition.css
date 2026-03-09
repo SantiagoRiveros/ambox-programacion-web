@@ -1,0 +1,47 @@
+button {
+    background: blue;
+    transition: background 3s;
+    /* transition nos marca un cambio, y cuanto va a durar */
+}
+
+button:hover {
+    background: red;
+}
+
+/* 
+¿Que pasa aca?
+-El boton cambia color
+-No cambia instantaneamente
+-cambia gradualmente
+
+*/
+
+/* 
+transition: propiedad duración tipo delay;
+*/
+
+/* 
+EJEMPLO:
+transition: all 0.3s ease;
+
+propieadad          significado
+all                 que propiedad animar
+0.3s                duracion
+ease                Tipo de velocidad
+
+*/
+
+
+/* 
+Tipos de velocidad:
+
+valor               comportamiento
+linear              velocidad constante
+ease                suave
+ease-in             arranca lento 
+ease-out            termina lento
+ease-in-out         arranca y termina lento
+
+
+
+*/

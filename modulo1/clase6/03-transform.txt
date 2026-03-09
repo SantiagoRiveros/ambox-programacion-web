@@ -1,0 +1,7 @@
+Transform modifica la forma o posicion de un elemento
+
+propiedad               efecto
+scale()                 agrandar-achicar
+rotate()                girar
+translate()             mover
+skew()                  inclinar

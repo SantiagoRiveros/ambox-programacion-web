@@ -1,0 +1,13 @@
+button {
+    transition: transform 0.3s;
+}
+
+button:hover {
+    /* transform: scale(1.1); */
+    /* Agranda */
+    /* transform: rotate(45deg); */
+    /* Gira */
+    /* transform: translateY(-10px); */
+    /* Mueve */
+    transform: scale(1.1) rotate(45deg) translateY(-10px) skewX(20deg)
+}

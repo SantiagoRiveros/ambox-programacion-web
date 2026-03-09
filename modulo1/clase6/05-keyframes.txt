@@ -1,0 +1,17 @@
+@keyframes permite crear animaciones mas complejas
+
+Ejemplo:
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.box {
+  animation: aparecer 1s;
+}

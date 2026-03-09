@@ -1,0 +1,7 @@
+Una animacion en CSS permite cambiar propiedades visuales de un elemento a lo largo del tiempo
+
+Hay dos formas principales:
+Tipo            Uso
+transition      animaciones
+@keyframes      animaciones complejas
+

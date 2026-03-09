@@ -1,0 +1,8 @@
+Objetivos de la clase:
+
+Que aprendan a usar:
+-transition
+-transform
+-@keyframes
+
+Y aplicarlo a botones animados, y cards interactivas

@@ -1,0 +1,12 @@
+Bootstrap tiene incorporados sus propios breakpoints
+
+Breakpoint	Tamaño mínimo
+sm	        576px
+md	        768px
+lg	        992px
+xl	        1200px
+xxl	        1400px
+
+A la propiedad que agregas (Por ejemplo text-center)
+Le agregas -BREAKPOINT y se aplica esa propiedad
+para el tamaño especificado de dispositivo

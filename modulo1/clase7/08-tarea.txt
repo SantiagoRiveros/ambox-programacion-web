@@ -1,0 +1,24 @@
+Crear una landing page usando Bootstrap.
+
+Debe tener:
+
+Navbar
+Hero
+3 cards de servicios
+Footer
+
+Usar:
+
+Bootstrap grid
+
+Bootstrap buttons
+
+Bootstrap cards
+
+Bonus
+
+Crear un archivo Sass que tenga:
+
+variables de color
+
+nesting

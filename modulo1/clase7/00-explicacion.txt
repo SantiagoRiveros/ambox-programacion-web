@@ -1,0 +1,15 @@
+¿Que es Bootstrap?
+Es un framework CSS que trae estilos y componentes ya hechos
+
+-Framework: Herramienta que te provee facilidades para hacer algo. (Ejemplo: Bootstrap facilita el trabajo en CSS)
+-Componente: Elemento en una pagina (EJ: navbar)
+
+Permite hacer:
+    -layouts
+    -botones
+    -cards
+    -navbar
+    -formularios
+MUCHO mas rapido
+
+¿Quien creo bootstrap? El equipo de Twitter

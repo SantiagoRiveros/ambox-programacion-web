@@ -1,0 +1,49 @@
+¿Como sabemos cuanto debemos cobrar algo? (Un trabajo freelance)
+
+Necesitamos 2 cosas SI O SI:
+
+-Precio por hora:
+    Si es local como JR van a cobrar 3.500 y 7.000 ARS
+    Si es para afuera, entre 5 y 15 USD la hora
+    Recomendacion personal: Ir por 7-8 USD la hora
+
+-REQUERIMIENTOS:
+    -Funcionalidades de la pagina(Login, registro, carrito de compras, articulos, etc.)
+    -Secciones
+    -Caracteristicas
+
+Esto, se llama asi: MVP (Minimum Viable Product/ Producto Minimo viable)
+Basicamente lo minimo que debe cumplir para satisfacer las necesidades.
+Esto conlleva que son los minimos requisitos para cumplir lo que se busca y minimo esfuerzo
+
+Todo tiene un alcance y limites. eso es el MVP, lo minimo.
+
+MLP (minimum lovable product)
+
+¿Pero como estimamos?
+
+Supongamos que quiero una pagina de ventas de libros, esto conlleva:
+
+-Catalogo
+    -HTMl del Catalogo y cSS -> Esto PONELE me lleve 4 horas (4xPRECIO_POR_HORA) +
+    -HTML del detalle del producto y CSS -> 2 horas (2xPrecio) +
+-Carrito de compras
+    -Algun sistema que te lleve los datos del catalg hasta aca 
+-Integracion con algun sistema de facturacion
+    -Crear una seccioon de facturacion
+    -Implementar una API externa
+-Login
+    -Formulario de inicio de sesion 
+    -Validaciones
+    -Medidas de seguridad 
+-registro
+    -Formulario 
+    -Validaciones 
+-Carga de productos (Formulario CRUD)
+    Formulario
+    Validaciones
+
+API + DB (Que conlleva esto?)
+
+Todo est se aprende con experiencia
+

@@ -1,0 +1,39 @@
+$primary: rgb(182, 222, 20);
+
+@mixin caja {
+  padding: 20px;
+  text-align: center;
+  border: 3px solid black;
+}
+
+button {
+  background-color: $primary;
+}
+
+div {
+  background-color: $primary;
+  @include caja;
+}
+
+/* 
+Imagines que queremos aplicar CSS a un elemento anidado
+
+nav ul li a { <- La etiqueta a dentro de la li, dentro de la ul, dentro del nav, si quiero aplicar algo al nav solo, es un lio
+  color: white;
+}
+
+con nesting podemos hacer asi: 
+
+nav{
+    ACA PUEDEN IR PROPIEDADES
+    ul{
+        ACA PUEDEN IR PROPIEDADES
+        li{
+            ACA PUEDEN IR PROPIEDADES
+            a{
+                ACA PUEDEN IR PROPIEDADES
+            }
+        }
+    }
+}
+*/

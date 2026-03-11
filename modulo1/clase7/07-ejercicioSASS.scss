@@ -1,0 +1,20 @@
+/* 
+Convertir esto:
+
+.button{
+    background-color: blue;
+}
+
+.button:hover{
+    background-color: darkblue;
+}
+*/
+
+$primary: blue;
+
+.button {
+  background-color: $primary;
+  &:hover {
+    background-color: darkblue;
+  }
+}

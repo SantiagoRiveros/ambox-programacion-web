@@ -1,0 +1,19 @@
+Sass es un preprocesador de CSS
+
+permite:
+-Variables
+-Nesting
+-Mixins
+-Codigo mas limpio
+
+Sass Compila a CSS Normal
+
+Como instalarlo:
+
+En la terminal:
+    npm i -g sass
+
+Con CONTROL + Ñ se abre la terminal
+
+para compilar Sass:
+sass style.scss style.css

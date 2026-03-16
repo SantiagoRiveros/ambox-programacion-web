@@ -1,0 +1,39 @@
+Aplicar todo lo aprendido en el modulo:
+
+-HTML
+-CSS
+-Responsive
+-Animaciones
+-Sass
+-Bootstrap (Opcional)
+
+Objetivo en si:
+
+Crear un portfolio profesional responsive que inluya:
+
+-Presentacion
+-Proyectos
+-Contacto
+
+Este proyecto sera la entrega final del modulo 1
+
+-----------------------------------------------
+
+Deben usar:
+
+HTML Semantico
+Flexbox o grid
+Mobile-First
+Breakpoints
+Animaciones
+Sass
+
+
+Secciones del portfolio:
+
+Navbar
+Hero
+Proyectos
+Sobre Mi 
+Contacto (Formulario)
+Footer

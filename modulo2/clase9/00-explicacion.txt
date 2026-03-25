@@ -1,0 +1,18 @@
+Todos alguna vez hemos tenido proyectos ordenados asi, por ejemplo:
+
+    -portfolio-version-1 <- Armamos la estructura principal
+    -portfolio-responsive <- Le dimos responsive
+    -portfolio-final <- Esta el CSS terminado con animaciones
+
+Git es un sistema de control de versiones
+Esto, que termina siendo super enredado, git evita que lo hagamos.
+
+Git permite:
+-Guardar versiones
+-Volver atras
+-Trabajar en equipo
+-No perder codigo
+
+Concepto clave:
+Git guarda "snapshots" del proyecto.
+Imaginemos que git, podemos pedirle que "saque una foto" del proyecto, y que lo guarde, versionandolo

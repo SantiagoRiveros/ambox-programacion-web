@@ -18,3 +18,7 @@ push = Los envio al remoto
 
 local al remoto
 add -> commit -> push
+
+remoto al local
+pull
+

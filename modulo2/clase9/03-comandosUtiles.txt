@@ -1,0 +1,15 @@
+git add . <- agrega todos los cambios
+
+git commit -m "comentario" <- empaqueta los cambios, entre comillas se le agrega un texto describiendo los cambios
+
+git push <- enviar los cambios
+
+git pull <- traer loos cambios
+
+git status <- El estado de tu repositorio local 
+
+git branch <- Ver las ramas actuales
+
+git checkout NOMBRE_DE_RAMA <- cambiamos las ramas
+
+git init <- inicializar el repositorio

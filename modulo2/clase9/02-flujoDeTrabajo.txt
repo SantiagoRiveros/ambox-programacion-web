@@ -1,0 +1,20 @@
+
+
+Flujo:
+
+Working Directory -> Staging -> Repository
+
+Es decir, llevamos y traemos cambios del local al remoto y viceversa
+
+para hacer esto de pasar del local al remoto, preparar cambios y guardar la version a subir
+
+add, commit y push
+
+add = Preparo los cambios
+
+commit -m = Los empaqueto
+
+push = Los envio al remoto
+
+local al remoto
+add -> commit -> push

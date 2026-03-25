@@ -1,0 +1,14 @@
+1- Instalar git https://git-scm.com/install/windows
+
+2- Probar en la terminal: git --version (o git --v)
+A- Nos da algo asi como: v15.x.x.x estamos bien
+B- si nos dice que git no se reconoce, reiniciar Visual Studio Code y/o la pc
+
+Configuracion inicial
+
+3- Al llegar a este punto debemos tener nuestra cuenta de github ya creada, vamos a introducir:
+
+git config --global user.name "Tu Nombre" <- Aca va nombre de usuario (por ejemplo yo: SantiagoRiveros)
+
+git config --global user.email "tu@email.com" <- Yo por ejemplo (santiagoriverosjasis@gmail.com)
+

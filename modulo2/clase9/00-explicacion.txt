@@ -16,3 +16,13 @@ Git permite:
 Concepto clave:
 Git guarda "snapshots" del proyecto.
 Imaginemos que git, podemos pedirle que "saque una foto" del proyecto, y que lo guarde, versionandolo
+
+
+Local Y Remoto
+
+Nosotros podemos tener una version del proyecto en nuestro local, y no estar en Remoto, y viceversa.
+Puede haber cambios en el remoto que no tengamos en el local.
+
+Si mi local tiene cambios que el remoto no tiene, esos cambios "solo" existen en mi pc.
+Al yo actualizar el remoto con mis cambios, esos cambios pasan a ser del remoto, y estar accesible para todos.
+

@@ -10,6 +10,8 @@ let numero = 3
 let string = "Hola"
 let boolean = true
 
+numero = "Hola"
+
 console.log("tipo de dato: " + typeof indefinido)
 console.log("tipo de dato: " + typeof nulo)
 console.log("tipo de dato: " + typeof numero)

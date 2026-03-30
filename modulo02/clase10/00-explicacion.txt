@@ -1,0 +1,49 @@
+javascript (NO CONFUNDIR CON JAVA) es un lenguaje de programacion de alto nivel, ligero, interpretado y multiparadigma (Aunque se suele decir que esta orientado a objetos)
+
+¿Que es alto nivel (o bajo?)?
+Basicamente el lenguaje de mas bajo nivel que existe, es el binario, que se traduce en impulsos electricos
+Cuanto mas parecido es a nuestro lenguaje (El "humano") mas de alto nivel es, y cuanto mas bajo nivel es, mas abstracto es el lenguaje
+
+Ejemplo de binario:
+
+1001 <- 9 en binario
+9 <- 9 en javascript
+
+¿Que significa que sea interpretado?
+Tenemos a grandes rasgos 2 tipos de lenguaje: Interpretado y Compilado.
+El interpretado se va ejecutando y leyendo, esto conlleva mas periodos de carga, pero mas ligero cada uno.
+El lenguaje compilado se lee todo, y luego se ejecuta (Mas tiempo de carga inicial, menos cargas posteriores)
+
+-------------------------
+
+-Funcion principal de Javascript: Proporciona dinamismo e interactividad a los sitios web, valida formularios
+y gestiona elementos interactivos, funcionando en el lado del cliente.
+
+-Interactividad con el DOM: Interactua con el Document Object Model (DOM) para modificar la estructura de la pagina sin recargarla
+
+-Uso versatil: Aunque nacio para navegadores, hoy en dia se utiliza tambien en el desarrollo backend (Con Node.js) aplicacioens moviles y juegos
+
+-Popularidad: ES uno de los lenguajes mas utilizado en la actualidad, su uso es fudnamental para crear paginas web.
+
+Dato importante: NO ES CASUALIDAD que su nombre se parezca a Java, de hecho esto fue tratado por mucho tiempo como un caso de plagio
+
+Utilidad en si:
+
+SIN JS:
+    Boton en pagina, no hace nada
+
+CON JS:
+    Boton Responde
+    pagina interactiva
+
+-----------------------------------
+
+¿Que es una variable?
+Es un espacio donde guardamos informacion
+
+Ejemplo (En JS):
+var dato = 3
+
+var -> Crea variable, le indica a JS que a continuacion vamos a declarar una variable
+dato -> Nombre con el que vamos a identificar nuestra variable
+3 -> Valor que le asignamos a la variable

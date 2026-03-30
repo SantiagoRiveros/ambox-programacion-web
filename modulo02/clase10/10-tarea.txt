@@ -1,0 +1,16 @@
+Van a crear un archivo llamado App.js que "simule" una aplicacion
+
+van a tener que declarar 4 variables:
+
+nombre, pais, edad, tieneTrabajo
+
+1- Mostrar en consola un string con los 4 datos, pueden usar condicionales
+2- Mostrar en consola si es mayor o menor de edad
+3- Mostrar e consola si tiene trabajo 
+4- Mostrar un mensaje en consola si tiene trabajo y es mayor de edad (Algo asi como "Puede trabajar" o "Esta trabajando")
+
+Que voy a evaluar:
+nombres de variables
+Condicionales correctos
+uso de operadores
+codigo ordenado

@@ -1,0 +1,39 @@
+Siempre que iniciamos un condicional con un if, puede ir seguido de un else if y/o else
+
+un else NUNCA puede ir antes de un if o de un else if, es decir es la ultima opcion
+
+un else if, no puede ir nunca antes de un if, debe ir luego del if.
+else if nunca puede ir despues de un else, el else es el que cierra
+
+else puede NO ESTAR en un condicional, es decir podemos hacer:
+
+if(condicion){
+    ...bloque de codigo
+} else if(otra condicion){
+    ...bloque de codigo
+}
+
+(Sin usar un else)
+
+o tambien:
+
+if(condicion){
+    ...bloque de codigo
+}
+if(condicion){
+    ...bloque de codigo
+}
+if(condicion){
+    ...bloque de codigo
+}
+if(condicion){
+    ...bloque de codigo
+}
+if(condicion){
+    ...bloque de codigo
+}
+
+
+if -> Es como decir decir "Si esta (condicion) hace esto{ bloque de codigo }
+else if -> Es como decir "Sino si esta (condicion) hace esto { bloque de codigo }
+else -> Es como decir "Sino hace esto { bloque de codigo }

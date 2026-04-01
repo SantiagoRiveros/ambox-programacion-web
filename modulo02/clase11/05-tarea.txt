@@ -1,0 +1,13 @@
+1️⃣ Mostrar números del 1 al 100
+2️⃣ Mostrar solo impares
+3️⃣ Mostrar múltiplos de 3
+4️⃣ Calcular suma del 1 al 10
+
+Desafio Extra (Solo por diversion, este si no les sale, esta bien, es DIFICIL):
+
+con bucles (Y sin poner cosas obvias, que sea escalable)
+que recorra numeros hasta mostrar:
+1
+22
+333
+4444

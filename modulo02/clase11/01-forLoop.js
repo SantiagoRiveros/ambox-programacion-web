@@ -11,6 +11,19 @@ for (let i = 1; i <= repeticiones; i++) {
     console.log(i)
 }
 
+/* 
+1. let i = 0 → empieza
+2. i < 5 → condición
+3. ejecuta código
+4. i++ → aumenta
+5. repite
+*/
+
+
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i)
+}
 // i++ es lo mismo que decir i + 1
 
 /*
@@ -48,3 +61,18 @@ i + 1 = 4
 // i < repeticiones -> es la condicion para que se siga repitiendo el loop, es como si fuera un if, cuando esta condicion no es true, deja de iterar
 
 // i++ -> es el cambio que se genera en nuestro puntero luego de ejecutar cada iteracion
+
+console.log("MOSTRAR PARES DEL 1 al 10")
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+        console.log(i)
+    }
+}
+
+/* 
+i++ → suma 1
+i-- → resta 1
+i += 2 → suma 2
+
+*/

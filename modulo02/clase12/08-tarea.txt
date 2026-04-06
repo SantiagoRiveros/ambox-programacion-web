@@ -1,0 +1,9 @@
+🎯 Parte 1
+Crear función calcularAreaRectangulo(base, altura) → retornar área
+Crear función esMayorDeEdad(edad) → retornar true/false
+Usar variable global pais y local ciudad dentro de función → mostrar ambas
+Crear una funcion, que repita un texto, la cantidad de veces que se mande por props, ejemplo: repetirTexto("Hola", 3) esto deberia repetirse 3 veces
+
+🎯 Parte 2 — Bonus
+
+Crear función repetirTexto(texto, veces) → mostrar el texto repetido la cantidad de veces indicada

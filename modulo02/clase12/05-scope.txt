@@ -1,0 +1,3 @@
+El scope, determina donde se puede usar una variable o no.
+
+Es decir determina el "alcance" de una variable

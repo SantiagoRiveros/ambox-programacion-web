@@ -1,0 +1,10 @@
+Nosotros ya vimos forma de repetir codigo, con los bucles.
+
+Una funcion es un bloque de codigo que podemos reutilizar y volver a llamar cuantas veces y donde queramos
+
+-Evita repetir codigo
+-Ayuda a reorganizar la logica
+-Le da dinamismo
+
+Una funcion es una "maquina" que hace algo cuando la llamas, puede o no ser dinamica
+

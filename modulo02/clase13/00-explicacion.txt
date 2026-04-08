@@ -1,0 +1,49 @@
+¿Que es un array/arreglo?
+Es una estructura de datos
+
+Imaginemos que es como una cadena
+
+[1, 2, 3, 4, 5, 6, 7]
+
+
+Un array es co  mo una lista de datos, uno despues del otro, con posiciones
+
+Ejemplo sin array:
+let alumno1 = "Juan"
+let alumno2 = "Pedro"
+let alumno3 = "Fernando"
+
+Ejemplo con array:
+let alumnos = ["Juan", "Pedro" "Fernando"]
+es mas ordenado, escalable y real.
+
+
+Cosas importantes
+-Es como una cadena de datos, un dato, siguiendo al otro
+-Los arrays pueden contener multiples tipos de datos, es indiferente a esto.
+-Un array puede estar dentro de otro array, y asi indefinidamente
+-Pueden estar mezclados los tipos de datos
+-Cada uno de estos datos, cuenta con una posicion definida y especifica
+-Cada una de estas posiciones, se llama INDICE
+-Se considera al array, como un tipo de dato en si
+-Cuando se cuenta los indices de un array, SIEMPRE el primer indice es el indice 0
+
+
+-----------------------------------------------------------------------------
+
+Metodos comunes:
+
+push -> Agrega un elemento al final
+pop -> Elmina un elemento al final
+unshift -> Agrega elemento al principio
+shift -> Elimina elemento al principio
+
+
+Metodo         Que hace                 Donde
+push           Agrega elemento          Al final
+unshift        Agrega elemento          Al principio
+pop            Elimina elemento         Al final
+shift          Elimina elemento         Al principio
+
+
+length -> Indica el largo de un array

@@ -1,0 +1,9 @@
+1. Invertir un array sin usar elementos avanzados
+
+2. Crear un array y eliminar todos sus elementos usando pop en un loop
+
+3. Crear un array y duplicar todos sus elementos en consola (Pueden usar strings para que sea mas facil):
+
+1 -> 11
+2 -> 22
+3 -> 33

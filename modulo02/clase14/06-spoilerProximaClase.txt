@@ -1,0 +1,9 @@
+let objeto = {
+    nombre : "Santiago",
+    apellido: "Riveros",
+    edad: 33,
+    experiencia: ["JBK", "TeamArt", "DFX5"]
+}
+
+El objeto (Para los que conocen otro lenguaje, diccionario) es una variable, que guarda dentro suyo, pares de clave-valor
+la clave-valor sirve para guardar muchos datos, dentro de uno solo

@@ -1,0 +1,17 @@
+Problema real:
+
+Tengo un array de precios y quiero duplicar su valor -> ejemplo si el precio es 100 que sea 200
+
+metodo .map((elemento) => { return elemento })
+
+recorre un array y devuelve un array nuevo con un cambio
+
+metodo .filter()
+
+array.filter((elemento) => condicion)
+
+Devuelve solo los que cumplen con la condicion
+No modifica el original
+
+metodo .reduce((acumulador, elemento) => elemento + acumulador, valorInicial)
+

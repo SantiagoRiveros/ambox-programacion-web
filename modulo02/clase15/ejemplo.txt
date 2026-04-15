@@ -1,0 +1,11 @@
+<article>
+<h5></h5>
+<p></p>
+<img src={image}>
+</article>
+
+class Articulo{
+    constructor(titulo, descripcion, imagen){
+        this.titulo
+    }
+}

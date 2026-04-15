@@ -25,3 +25,11 @@ p.nombre = true
 console.log(p.nombre)
 p.nombre = "Fernando"
 console.log(p.nombre)
+
+/* 
+Con esto podriamos agregarle iva a un producto
+set precio(valor){
+    this.precio = valor * 1.21
+}
+
+*/

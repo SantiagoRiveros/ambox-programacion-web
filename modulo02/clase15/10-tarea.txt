@@ -1,0 +1,18 @@
+Crear objeto usuario
+
+Debe tener:
+
+nombre
+edad
+email
+activo
+
+Agregar método
+"Hola, soy Juan y tengo 25 años"
+
+Agregar método esMayorDeEdad()
+retorna true o false
+
+Modificar datos
+cambiar edad
+agregar propiedad pais (Este van a tener que googlear)

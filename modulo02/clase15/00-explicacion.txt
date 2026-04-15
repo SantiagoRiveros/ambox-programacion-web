@@ -1,0 +1,55 @@
+El problema:
+
+Queremos guardar nombres y edades
+
+let nombres = ["Raul", "Juan"]
+let edades = [25, 41]
+
+problema:
+-No estan relacionados
+-No sabemos que es de quien
+
+Para eso, nace un objeto (Tambien conocido en otros lenguajes como diccionario)
+
+Ejemplo:
+
+let persona = {
+    nombre: "Raul",
+    edad: 41
+}
+
+Esto, esta declarado con pares de clave-valor
+la sintaxis es la siguiente:
+
+let variable = {
+    clave1: valor1,
+    clave2: valor2,
+    etc...
+}
+
+quiero mostrar en consola el nombre de la persona
+console.log(persona.nombre)
+
+let personas = [
+    {
+        nombre: "Raul",
+        edad: 41
+    },
+    {
+        nombre: "Juan",
+        edad: 25
+    }
+]
+
+Quiero mostrar el nombre de Juan:
+console.log(personas[1].nombre)
+
+let auto = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    año: 2020
+}
+
+un objeto puede tener tantas propiedades como se quiera, los valores de propiedades pueden ser cualquiera:
+un array, otro objeto, un booleano, un string, un numero, una funcion...
+

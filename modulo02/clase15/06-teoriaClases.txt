@@ -1,0 +1,35 @@
+constructor =
+Es el metodo que se ejecuta al crear el objeto
+
+constructor(nombre, apellido){
+    this.nombre = nombre,
+    this.apellido = apellido
+}
+
+this -> indica el objeto que se esta creando
+
+-------------------------------------------
+
+this
+Hace referencia a la instancia actual
+this.nombre (Es el nombre del objeto que se esta creando)
+
+No es el global, sino el objeto en si
+
+
+-------------------------------------------
+funciones dentro de la clase
+    saludar(){
+        console.log("Hola " + this.nombre)
+    }
+
+No se usa function (la palabra en si)
+
+-----------------------------------
+
+Error comun:
+saludar: () => {
+
+}
+
+al usarlo asi, perdemos el uso de "this"

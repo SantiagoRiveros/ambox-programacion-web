@@ -1,0 +1,39 @@
+-Manejar objetos de manera moderna
+-entender destructuring
+-usar spread opeator
+-entiendan que es JSOn y como se usa
+-demos inicio a pensar en datos reales (APIs)
+
+--------------------------------------------
+
+repaso
+
+¿Que es un objeto?
+
+Es una variable que funciona con pares de clave-valor (tambien llamados tuplas), tambien nos sirve como "coleccion" de datos
+
+Ejemplos practicos:
+
+let persona = {
+    nombre: "blabla",
+    apellido: "blabla",
+    edad: 11,
+    experiencia laboral: [{},{},{}],
+    aumentarSueldo: () => {},
+
+}
+
+Como accedemos a una clave de un objeto?
+
+la mas simple, es con dot notation:
+persona.nombre
+
+bracket notation:
+persona["nombre"]
+
+de manera dinamica:
+
+let clave = "nombre"
+
+persona[clave]
+

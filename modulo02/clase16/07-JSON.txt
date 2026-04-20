@@ -1,0 +1,29 @@
+¿Que es JSON?
+
+Javascript object-notation
+
+es decir, notacion de objeto en Javascript
+
+// Es un formato para guardar o enviar datos
+Las APIs en general, cuando te envian informacion, te la envian de esta manera
+
+Ejemplo de un objeto en javascript:
+
+let usuario = {
+    nombre: "Juan",
+    edad: 25
+}
+
+Ejemplo en JSON:
+{
+    "nombre": "Juan",
+    "edad": 25
+}
+
+Diferencias clave:
+
+Javascript                      JSON
+sin comillas en keys            SIEMPRE con comillas
+puede tener funciones           No puede
+puede tener metodos             No puede
+

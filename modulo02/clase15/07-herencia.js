@@ -5,19 +5,27 @@ class Animal {
     hacerSonido() {
         console.log("Sonido generico de animal")
     }
+    noHacerSonido() {
+        console.log("No se escucha nada.")
+    }
 }
 
 // Tal vez tenemos varias clases de animales y queremos generar subclases
 // Como hacemos para llamar al constructor de la clase padre? con super
 class Perro extends Animal {
     constructor(nombre, raza) {
-        super(nombre),
+        super(nombre), // Indica que va a usar el constructor de la clase padre
             this.raza = raza
     }
     hacerSonido() {
         console.log("Guau")
     }
+    correrPelota() {
+        console.log(this.nombre + " corre la pelota.")
+    }
 }
+
+let animal1 = new Animal("pepe")
 
 // El extends, indica que Perro como clase hereda todas las propiedades y metodos que conlleva la clase Animal
 let beta = new Perro("Beta", "Mestizo")

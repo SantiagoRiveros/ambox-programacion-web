@@ -1,0 +1,17 @@
+¿Que es el DOM?
+
+Document Object Model
+
+El DOM es como Javascript "ve" el HTML
+
+Ejemplo:
+
+HTML
+
+<h1>Hola Mundo </h1>
+
+JS:
+
+document.querySelector("h1") -> Por etiqueta
+document.querySelector(".clase") -> por clase
+document.querySelector("#id") -> por id

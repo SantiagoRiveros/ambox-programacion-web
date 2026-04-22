@@ -1,0 +1,14 @@
+El asincronismo es por definicion, que hay ciertos procesos que no son instantaneos, y debemos esperar su definicion
+
+ let numero = 3 -> este proceso es instantaneo, ya que no consumimos ninguna entidad "externa" y por ende
+ el valor de numero lo vamos a tener disponible instantaneamente.
+
+ let numero = 3
+ console.log(numero) // lo podemos leer bien
+
+ ¿Que pasa cuando consumimos una API?
+
+
+ Peticion -> Cliente -> API -> Cliente
+
+ 

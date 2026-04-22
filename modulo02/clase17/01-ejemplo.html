@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hola Mundo</h1>
+    <button class="boton">Boton</button>
+    <div id="heading-3">Subtitulo</div>
+
+
+    <!-- 
+    document = {
+        h1: {},
+        button: {},
+        div: {},
+        etcetera
+    }
+    
+    -->
+
+    <script>
+        let titulo = document.querySelector("h1") // busca la etiqueta
+        // Vamos a cambiarle el contenido al hola mundo
+        console.log(titulo)
+        titulo.textContent = "Chau Mundo"
+
+        // Lo que capturamos con query selector, la etiqueta en si, es un objeto
+        let boton = document.querySelector(".boton")
+        boton.textContent = "No es un boton"
+        boton.style.backgroundColor = "red"
+        boton.style.color = "white"
+        let subtitulo = document.querySelector("#heading-3")
+        subtitulo.innerHTML = "<h3>Hola</h3>"
+
+        let p = document.createElement("p")
+        p.textContent = "Hola desde JS"
+        // p no es visible en el documento, porque p, no es ta en el DOM
+        // como agrego el p, al DOM?
+        document.body.appendChild(p)
+        let lista = document.createElement("ul")
+        let itemDeLista = document.createElement("li")
+        itemDeLista.textContent = "Item 1"
+        lista.appendChild(itemDeLista)
+        document.body.appendChild(lista)
+
+    </script>
+</body>
+
+</html>

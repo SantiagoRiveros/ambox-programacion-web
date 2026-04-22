@@ -1,0 +1,4 @@
+Van a tener que consumir la lista de usuarios:
+https://jsonplaceholder.typicode.com/users
+
+y por cada uno de los usuarios, crear 1 tarjeta, mostrando cada una de las propiedades del usuario

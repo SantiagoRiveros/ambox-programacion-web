@@ -1,0 +1,11 @@
+#teclado {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

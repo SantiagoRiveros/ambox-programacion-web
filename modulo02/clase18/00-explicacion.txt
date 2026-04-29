@@ -1,0 +1,42 @@
+Objetivos:
+
+-Entiendan que es un evento
+-Usen addEventListener
+-manejen eventos con 'click'
+-Entiendan formularios 'submit'
+-Eviten recargas con preventDefault
+-Empieze a hacer apps interactivas
+
+
+¿Que es un evento?
+
+Un evento es 'algo' Que pasa en la pagina
+
+Ejemplos:
+-click
+-escribir
+-enviar formulario
+-mover el mouse, etc.
+
+-- IMPORTANTE --
+Javascript en HTML reacciona a eventos
+
+¿Donde ocurren los eventos?
+
+Los eventos los 'toman' los diferentes elementos de la pagina
+
+ejemplo:
+
+Si el boton X recibe un click -> Hacer esto
+
+¿ Como hacemos que Javascript reaccione a un evento en X elemento?
+
+con addEventListener
+
+un event listener, es de por si, un patron, pero pensemoslo asi:
+
+Agregamos un "Oyente" a X elemento, que espera X Evento, cuando ocurre el evento, hace X cosa
+
+Sintaxis:
+
+elemento.addEventListener("evento", funcion)

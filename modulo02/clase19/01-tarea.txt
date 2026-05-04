@@ -1,0 +1,2 @@
+En script.js, agregar alguna funcion, o algo, que cuando yo presione una tecla de operacion, me asigne el resultado
+como primer NUmero, y me deje concatenar operaciones

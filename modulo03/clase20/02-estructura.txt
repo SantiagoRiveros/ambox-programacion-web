@@ -1,0 +1,7 @@
+Los 3 archivos que nos interesan cuando creamos un proyecto en vite son:
+
+/src
+     App.css <- El css del componente principal
+     App.jsx <- el componente principal
+     main.jsx <- EL punto de entrada, es en si, lo que se ejecuta, para "correr" React
+         

@@ -1,0 +1,34 @@
+Que es react?
+
+React es una librearia, que permite crear interfaces web y nativas (Osea, moviles)
+
+La interfaz en react, se basa en componentes.
+
+¿Que es un componente?
+
+Vamos a un ejemplo:
+
+En vez de:
+HTML gigante
+JS mezclado
+
+hacemos piezas:
+Navbar
+Card
+Boton
+
+----------------------------------
+
+React permite "Fragmentar" el HTML, para volverlo reutilizable, escalable, mas facil de desarrollar, y de depurar errores
+
+
+Entonces... que es un componente?
+
+Es una funcion de Javascript, que devuelve fragmentos de HTML
+
+----------------------------------
+
+Hay varios "motores" de react, que crean el proyecto, y hacen que funcione.
+
+El mas "clasico" es React puro, o le dicen CRA (Create-react-app)
+

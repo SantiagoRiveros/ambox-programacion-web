@@ -1,0 +1,82 @@
+1- UN solo elemento padre
+
+Este ejemplo esta bien:
+
+function Componente(){
+    return(
+        <div>
+            <h1>Hola Mundo</h1>
+        </div>
+    )
+}
+
+Este NO esta bien:
+
+function Componente(){
+    return(
+        <div>
+            <h1>Hola Mundo</h1>
+        </div>
+        <div> 
+            <h2>Hola Mundo</h2>
+        </div>
+    )
+}
+
+Entonces, como hago cuando quiero devolver algo como el segundo ejemplo?
+
+Usamos lo que se llama react fragment
+
+function Componente(){
+    return(
+        <>
+            <div>
+                <h1>Hola Mundo</h1>
+            </div>
+            <div> 
+                <h2>Hola Mundo</h2>
+            </div>
+        </>
+    )
+}
+
+El fragment, se usa en vez de un div, porque cuando se crea la pagina
+el fragment NO es una etiqueta, sirve para "envolver" varias etiquetas, sin afectar el DOM
+
+----------------------------------------------------
+
+2- NO SE USA class, se usa className
+
+<div className="clase.css">
+</div>
+
+----------------------------------------------------
+
+3- JS en el HTML
+
+function Componente(){
+    let nombre = "Juan"
+
+    return(
+        <>
+            <h1>Hola mi nombre es {nombre}</h1>
+        </>
+    )
+}
+
+
+----------------------------------------------------
+
+4- el nombre de la funcion, que en si es el componente, SIEMPRE debe empezar en mayuscula
+
+function Componente(){
+    let nombre = "Juan"
+
+    return(
+        <>
+            <h1>Hola mi nombre es {nombre}</h1>
+        </>
+    )
+}
+
+luego, el nombre del archivo, puede empezar con mayuscula o minuscula, pero la funcion SIEMRPE empieza con mayuscula

@@ -1,0 +1,8 @@
+¿Que es vite?
+
+un "Motor" para crear el proyecto en React
+
+-Te arma el proyecto (Carpetas/archivos)
+-Levanta el servidor
+-Recarga automatica
+-Optimiza codigo

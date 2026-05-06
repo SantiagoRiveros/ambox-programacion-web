@@ -1,0 +1,21 @@
+🏠 TAREA
+🎯 Parte 1
+
+Crear componente Producto
+
+nombre
+precio
+🎯 Parte 2
+
+Crear 3 productos
+
+🎯 Parte 3 💣
+
+Crear componente Perfil
+
+nombre
+edad
+email
+🎯 Parte 4 💣💣
+
+Armar mini app con 3 componentes

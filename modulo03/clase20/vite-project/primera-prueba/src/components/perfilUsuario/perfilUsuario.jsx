@@ -1,5 +1,6 @@
-import Subtitulo from "./subtitulo";
-import Titulo from "./titulo";
+import Subtitulo from "../subtitulo/subtitulo";
+import Titulo from "../titulo/titulo";
+import "./perfilUsuario.css";
 
 export default function PerfilUsuario({ nombre, edad, trabajo }) {
   return (

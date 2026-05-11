@@ -1,0 +1,14 @@
+¿Que es un hook?
+
+Son funciones especiales de React, que nos permiten "enganchar" el estado y ciclo de vida de un componente en React.
+
+useState nos permite, suscribirnos al estado de un componente, para poder guardar informacion, renderizarla y usarla.
+
+¿Como es la sintaxis?
+
+const [estado, setEstado] = useState(valorInicial)
+
+estado = Es donde se va a guardar el valor del estado
+setEstado, es una funcion que nos permite modificar el valor del estado, es la unica forma.
+
+valorInicial = Es el valor con el que se inicializa el estado

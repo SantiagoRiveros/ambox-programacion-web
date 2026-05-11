@@ -1,0 +1,20 @@
+El estado en react, pensemoslo como una especie de "Almacen" donde vamos a guardar informacion para su uso.
+
+Esto, ademas, proporciona dinamica a la pagina, sin sacrificar rendimiento
+
+Cuando yo actualizo el estado a traves de su setter, react, detecta que hay un cambio.
+
+Entonces, ¿Que pasa?
+
+y React tiene 2 DOM, uno el Real Dom, y el otro virtual Dom.
+
+A traves del virtual, busca donde es que esta el cambio, y cuando lo encuentra, actualiza SOLO ESA porcion de DOM en real
+
+Entonces, cuando actualiza, re-renderiza esa porcion.
+
+Renderizar es el proceso informatico de generar una representacion visual
+
+
+¿Porque no usar una variable, comun y corriente?
+
+Porque, react se "suscribe" a sus estados, y cada vez que ocurre un cambio, sabe que tiene que cambiar de manera visual

@@ -1,0 +1,71 @@
+El ciclo de vida, es el conjunto de etapas por las que pasa un componente desde que se crea, hasta que aparece en pantalla.
+
+Pensarlo asi:
+
+1. Nace -> Se crea el componente
+2. Se actualiza -> Cambia informacion y React vuelve a renderizar.
+3. Muere -> El componente desaparece.
+
+Las 3 etapas (principales) del ciclo de vida:
+
+1. Montaje (Mount)
+Es cuando el componente aparece por primera vez en pantalla.
+
+Ejemplo:
+
+    function App(){
+        return <h1>Hola</h1>
+    }
+
+Cuando react muestra este componente, es porque ya se monto.
+
+2. Actualizacion (Update)
+Ocurre cuando cambia:
+    - Un estado
+    - Una prop
+    - O se vuelve a renderizar el componente padre
+
+Ejemplo:
+
+import {useState} from 'react'
+
+function Contador(){
+    const [numero, setNumero] = useState(0)
+
+    return(
+        <>
+            <h1>{numero}</h1>
+            <button onClick={() => setNumero(numero + 1)}>
+                Sumar
+            </button>
+        </>
+    )
+}
+
+Cada vez que tocamos el boton:
+- Actualizamos el estado
+- React renderiza de nuevo
+- El componente se actualiza
+
+3. Desmontaje (Unmount)
+Es cuando el componente desaparece
+
+function App(){
+    const [mostrar, setMostrar] = useState(true)
+
+    return(
+        <>
+            <button onClick={() => setMostrar(!mostrar)}>
+                Mostrar
+            </button>
+
+            {mostrar == true ? <Mensaje/> : <></>}
+        </>
+    )
+}
+
+function Mensaje(){
+    return <h1>Hola</h1>
+}
+
+Cuando mostrar pasa a ser false, react desmonta <Mensaje/>

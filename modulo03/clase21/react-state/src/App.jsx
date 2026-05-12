@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import "./App.css";
+import Mensaje from "./components/Mensaje";
+import Input from "./components/Input";
 
 function App() {
   // el estado se declara asi:
@@ -15,6 +17,8 @@ function App() {
         Count is {count}
         <button onClick={() => setCount((count) => count + 1)}>+</button>
       </section>
+      {count >= 10 ? <Mensaje /> : <></>}
+      <Input />
     </>
   );
 }

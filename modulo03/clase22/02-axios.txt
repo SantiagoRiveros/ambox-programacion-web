@@ -1,0 +1,7 @@
+Axios es una libreria que nos permite consumir APIs de manera moderna y rapida
+
+fetch                       Axios
+mas manual                  mas simple
+usar json()                 no hace falta
+nativo                      libreria
+

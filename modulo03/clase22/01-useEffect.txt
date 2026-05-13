@@ -1,0 +1,1 @@
+useEffect es un hook para ejecutar codigo en ciertos momentos del ciclo de vida del componente

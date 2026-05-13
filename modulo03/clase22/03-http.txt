@@ -1,0 +1,71 @@
+Tenemos una serie de peticiones "Basicas" en HTTP.
+
+Las peticiones HTTP son las que usamos para interactuar con la API.
+
+Metodo                      Uso 
+GET                         Obtener Datos
+POST                        Crear Datos
+PUT                         Modificar Datos
+PATCH                       Modificar parcialmente
+DELETE                      Eliminar datos
+
+
+
+STATUS CODES:
+
+Cuando le enviamos una peticion a la API, esta, entre otras cosas, nos devuelve un codigo de estado.
+Este codigo nos da informacion sobre, como se completo (o no) la peticion que hicimos.
+
+
+Los codes se formatean de la siguiente manera, ej: 200, en general son codigos numericos de 3 cifras, donde el primer numero 
+nos indica a grandes rasgos como termino la peticion, y los otros dos numeros son circunstanciales.
+
+Los status codes, se dividen en grupos:
+
+
+1xx -> Informativos:
+Muy pocos usados
+
+codigo          que significa
+100             Continue
+
+
+2xx -> Exito:
+Todo salio bien
+
+codigo                  que significa
+200                     Ok
+201                     Created (Se usa mucho con los post, para indicar que se creo bien)
+204                     No content (Que esta bien la peticion, pero nos falto contenido) (Tambien, se usa para indicar que no hay devolucion, por ejemplo en un DELETE)
+
+
+3xx -> Redirecciones:
+El recurso esta en otro lado, por ende se redirecciona (Tambien se usa cuando se completo algun metodo, y esto "avisa" de que se esta redireccionando)
+
+codigo                  Que significa
+301                     Moved permanently
+302                     Found
+304                     Not modified
+
+
+4xx -> Error del cliente:
+El error se encuentra en la peticion en si.
+
+codigo                  Que significa
+400                     Bad Request
+401                     Unauthorized
+403                     Forbidden
+404                     Not Found
+405                     Method Not Allowed
+429                     Too Many Requests
+
+
+5xx -> Error del servidor:
+El problema esta en el backend/API
+
+codigo                  que significa
+500                     Internal Server Error
+502                     Bad Gateway
+503                     Service Unavalaible
+
+

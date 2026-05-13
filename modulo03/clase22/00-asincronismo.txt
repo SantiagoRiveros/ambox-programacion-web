@@ -1,0 +1,32 @@
+¿Que es el asincronismo?
+
+Nosotros veniamos acostumbrados hasta ahora, a que JS lea una linea tras otra y lo vaya ejecutando. Pero...
+¿Que pasa cuando la accion a tomar, no tiene respuesta inmediata?
+
+Ej:
+
+let datosDeAPI = datosDeAPI() <- Esto, no recibe respuesta instantanea, pero sin embargo JS va a suponer que cuando lo leemos, ya tenemos la respuesta
+
+console.log(datosDeAPI) <- Aca, no lo va a poder leer, porque aun no tenemos el valor/respuesta de datosDeAPI
+
+Para valores que nosotros no sabemos aun como se van a resolver, usamos -> PROMESAS
+
+
+La promesa, como bien indica su nombre, es la asuncion de la responsabilidad, de que algo va a obtener un valor.
+
+datosDeAPI <- Cuando yo lo declaro, no obtengo un valor, pero mediante las promesas, le "aviso" a JS que vamos a tener un valor.
+
+Tenemos dos caminos:
+
+Que la promesa se complete exitosamente
+
+Que no se complete (error)
+
+
+Pedis Datos a una API -> Tardan -> Llegan despues
+
+async - await
+
+async es el prefijo utilizado para indicar que algo (por ejemplo una funcion) va a tener resultado asincrono, es decir, no instantaneo
+
+await, indica que el valor del que hablamos tiene un "Tiempo de resolucion" es decir, que no es instantaneo, que lo espere

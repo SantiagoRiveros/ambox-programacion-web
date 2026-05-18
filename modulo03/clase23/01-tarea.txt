@@ -1,0 +1,28 @@
+Deberan crear un formulario
+
+🎯 Parte 1
+
+Formulario:
+
+nombre
+apellido
+edad
+sexo
+
+🎯 Parte 2
+
+Validar:
+
+campos vacíos
+email válido
+
+🎯 Parte 3 💣
+
+Mostrar datos enviados en pantalla
+
+🎯 Parte 4 💣💣
+
+Agregar:
+
+limpiar formulario
+mensaje éxito/error

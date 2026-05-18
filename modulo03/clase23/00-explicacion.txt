@@ -1,0 +1,32 @@
+
+¿Como es que obteniamos datos de un formulario con Javascript + HTML?
+
+document.querySelector('#input').value
+
+
+En react:
+
+
+React controla los inputs usando estado.
+
+EL estado es la fuente de la verdad
+
+---------------------------------------
+
+Input controlado
+
+¿Que es un input controlado?
+Un input cuyo valor viene desde el estado.
+
+
+Input cambia -> Estado Cambia -> React Renderiza de nuevo
+
+
+Mostrar texto en mayúscula
+Mostrar cantidad caracteres
+Mostrar mensaje si supera 10 letras
+
+
+---------------------
+
+Si yo tuviera, 10 inputs, crearia 10 estados?

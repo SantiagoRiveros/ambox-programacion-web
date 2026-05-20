@@ -1,0 +1,18 @@
+🎯 Parte 1
+
+Crear contexto de usuario
+
+🎯 Parte 2
+
+Mostrar usuario en 2 componentes
+
+🎯 Parte 3 💣
+
+Agregar login/logout
+
+🎯 Parte 4 💣💣
+
+Crear contexto de carrito:
+
+agregar productos
+mostrar cantidad

@@ -1,0 +1,79 @@
+¿Como se comunican los componentes?
+
+Mediante props -> Los padres, pasan informacion a los hijos
+
+Pero... ¿Que pasa si los dos componentes padre-hijo necesitan usar el mismo estado?
+
+
+---------------------------------
+
+Elevacion de estado
+Subir el estado al componente padre mas cercano
+
+--------------------------------------
+
+
+Props Drilling
+
+Imaginemos esto:
+
+App -> Tengo que llevar y compartir mi estado de aca
+ ↓
+Navbar
+ ↓
+Menu
+ ↓
+Usuario -> Hasta aca
+
+Tenemos componente App, con Navbar como hijo
+Navbar tiene como hijo a Menu
+Menu tiene como hijo Usuario
+
+Tenemos que compartir estado entre App y Usuario
+
+Ahora... podemos hacer que "herede" o "comparta" estado entre ambos, pasando por los componentes del medio
+
+Esto se llama Props Drilling
+
+Parece buena idea... pero...
+
+Problemas:
+-Eficiencia, la pagina se vuelve muy lenta con esto
+-Codigo repetitivo
+-Dificil de mantener (Osea de arreglar si se rompe algo)
+-Componentes reciben props que ni usan (Lo cual los vuelve mas lentos)
+
+Solucion (No es la unica):
+Context API
+
+-------------------------------------------------------------------------
+
+CONTEXT API:
+Sistema global de React para compartir datos
+
+Sin context api:
+el componente recibe props de su padre, de manera unidireccional
+
+Con context api:
+Cualquier componente se puede comunicar con el context api, "salteandose" la jerarquia de componentes
+
+Context permite compartir estado sin pasar props manualmente.
+
+App -> Usuario -> PaginaUsuario -> LogOut
+
+App -> Envia un estado al context
+ ↓
+Navbar
+ ↓
+Menu
+ ↓
+Usuario -> Accede al context a traves de useContext
+
+----------------------------------------------------
+
+Errores Tipicos:
+
+❌ olvidar Provider
+❌ importar mal contexto
+❌ usar useContext fuera Provider
+❌ pasar mal value

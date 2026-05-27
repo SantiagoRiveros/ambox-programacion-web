@@ -1,0 +1,46 @@
+¿Que pasa cuando muchos componentes necesitan el MISMO ESTADO?
+
+Ejemplo
+-Carrito
+-Usuario
+-Tema
+-Favoritos
+-Login
+TODO LA APP necesita estos datos
+
+Problemas
+-Props Drilling-
+-Estados duplicados
+-Es dificil de mantener
+-Desordenado
+
+Context api ayuda, pero REDUX esta pensado especificamente para esto
+
+Redux -> Centraliza el estado de toda la aplicacion
+
+TODOS LOS COMPONENTES:
+puedn enviar y recibir de REDUX.
+
+
+Concepto            Que es
+Store               Estado global
+Action              Indica que paso 
+Reducer             Como cambia el estado
+Dispatch            Envia accion
+
+Componente -> dispatch -> Action -> Reducer -> Store Cambia -> React renderiza
+
+
+1- Componente quiere cambiar algo:
+Agregar producto
+
+2- Dispatch envia la accion
+dispatch({type: "sumar"})
+
+3- Reducer recibe la accion
+Decide como cambia el estado
+
+4- Store se actualiza
+
+5- React renderiza otra vez
+

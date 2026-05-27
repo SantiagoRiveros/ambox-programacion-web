@@ -1,18 +1,18 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit"; // Aca importamos el createSlice
 
 const initialState = {
-    value: 0
+    value: 0 // Seteamos el valor inicial del estado
 };
 
-export const counterSlice = createSlice({
+export const counterSlice = createSlice({ // Creamos el slice
 
-    name: "counter",
+    name: "counter", // Con nombre "counter"
 
-    initialState,
+    initialState, // con value : 0
 
-    reducers: {
+    reducers: { // aca definimos lso reducers
 
-        increment: (state) => {
+        increment: (state) => { // Con sus acciones
             state.value += 1;
         },
 
@@ -32,6 +32,6 @@ export const {
     increment,
     decrement,
     reset
-} = counterSlice.actions;
+} = counterSlice.actions; // Exportamos las acciones
 
-export default counterSlice.reducer;
+export default counterSlice.reducer; // Exportamos el reducer

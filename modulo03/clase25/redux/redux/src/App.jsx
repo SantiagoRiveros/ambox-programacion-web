@@ -6,8 +6,10 @@ import { increment, decrement, reset } from "./features/counter/counterSlice";
 
 function App() {
   const dispatch = useDispatch(); // Envia la accion
+  // Digamos que lanza info al store
+  const contador = useSelector((state) => state.counter.value); // Accede al store, al counter
+  // Selector -> Nos trae info del store
 
-  const contador = useSelector((state) => state.counter.value); // Accede al store
   return (
     <>
       <div>
@@ -22,5 +24,15 @@ function App() {
     </>
   );
 }
+
+/* 
+¿Que pasa cuando se dispatchea?
+
+Redux:
+busca reducer correspondiente
+ejecuta logica
+actualiza store
+React renderiza de nuevo
+*/
 
 export default App;

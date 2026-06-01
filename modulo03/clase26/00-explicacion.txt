@@ -1,0 +1,98 @@
+¿Que es una API?
+
+Application Programming Interface
+
+Es una entidad, que permite que diferentes entidades se comuniquen entre si.
+
+Frontend -> Manda peticion de registrar usuario -> API -> Base de Datos
+Base de datos responde que guardo -> API recibe que se guardo -> Devuelve al frontend con un status 200
+
+Frontend -> API -> DB
+DB -> API -> Frontend
+
+
+--------------------
+
+¿Como obtiene informacion Instragram para mostrarla en su Web?
+
+¿Como obtiene informacion para mostrar los productos en oferta, mercado libre?
+
+¿Com obtiene informacion Spotify?
+
+-> APIs
+
+¿Que es una API?
+
+Es un intermediario que permite que una aplicacion pida informacion a otra.
+
+Cliente -> Frontend
+  |
+Mozo    -> API
+  |
+Cocina  -> Servidor / Base de datos
+
+------------------------------------
+
+Metodos HTTP
+
+GET -> Obtiene Datos
+POST -> Crea Datos
+PUT -> Modifica Datos
+DELETE -> Elimina Datos
+
+
+CRUD =
+
+Create -> POST
+Read   -> GET
+Update -> PUT
+Delete -> DELETE
+
+
+-----------------------
+
+useEffect(() => {}, [])
+Se ejecuta una vez se carga el componente.
+Recibe como primer parametro una funcion, y como segundo, un array de dependencias.
+Dicho array si esta vacio, hace que se ejecute solo una vez, si tiene alguna variable/estado dentro, se va a ejecutar
+cada vez que ocurra un cambio en esa variable/estado.
+
+fetch
+Hace una peticion HTTP
+
+response.json()
+Convierte la respuesta de la api, de JSON a objeto
+
+.then()
+Se ejecuta, una vez se "resolvio" lo anterior
+
+¿Porque hago el .then, no seria como que hago "esperar" al algoritmo?
+Si, literalmente, le digo "Espera la respuesta de lo anterior y ENTONCES hace esto"
+Esto ocurre porque la interaccion con APIs u otras entidades NUNCA son instataneas, por ende hay que esperar lar espuesta.
+
+
+try {} <- se usa con async await
+Si ocurre algun error en alguna de las peticiones que hace, sale del bloque del try
+y entra al bloque del catch, recibiendo como parametro el error que recibio de la api.
+
+
+-----------------------------
+
+ROUTING
+
+¿Que pasa si queremos que la pagina tenga distintas "paginas" dentro? y se manejen por URL
+
+Routing es el sistema que determina que componente se va a mostrar segun la URL.
+
+<BrowserRouter> Activa el sistema de routing 
+
+<Routes> Contenedor de Rutas
+<Route> Define una Ruta
+
+<Route
+ path="/productos"
+ element={<Productos />}
+/>
+
+Si URL = /productos
+mostrar Productos

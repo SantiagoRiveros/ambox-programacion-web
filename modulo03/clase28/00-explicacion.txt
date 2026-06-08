@@ -1,0 +1,36 @@
+function sumar(a, b){
+    return a + b
+}
+
+console.log(3, 4) <- esto es lo esperado
+console.log("Hola", 31) <- ¿Que pasa aca?
+console.log([], {}) <- y aca?
+
+JS de tan flexible que es, a veces se pasa de permisivo
+Al ser JS tan flexible, a veces nos conduce a errores, muchos de estos dados por los tipos de datos.
+
+Javascript -> No tipado o dinamicamente tipado
+¿ Que es tipado ? -> Que tiene ciertas restricciones con los tipos de datos.
+
+Typescript -> Agrega tipado estatico -> Podemos crear variables de X tipo, y limitar eso.
+
+¿Que es typescript? -> Es un superset de Javascript que agrega tipado.
+
+Superset -> Todo Javascript valido es typescript valido.
+
+Javascript:
+    let nombre = "Juan"
+
+Typescript:
+    let nombre : string = "Juan"
+
+con el : y el tipo de dato, le indico que tipo de dato debe ser, esto es INMUTABLE.
+
+en TS (typescript) -> No puedo hacer -> nombre = 32 luego de haberlo tipado a string
+
+Beneficios:
+    -Menos errores
+    -Mejor autocompletado
+    -Codigo mas mantenible
+    -Mas facil trabajar en equipos.
+

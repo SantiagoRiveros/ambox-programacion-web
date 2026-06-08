@@ -1,0 +1,29 @@
+1- Separar en un componente aparte, lo que es el <article> y tipar las props que recibe.
+
+En otro proyecto:
+Ejercicio 1
+
+Crear interface Alumno
+
+id
+nombre
+curso
+nota
+Ejercicio 2
+
+Crear array tipado de alumnos
+
+Ejercicio 3
+
+Crear función:
+
+calcularPromedio()
+
+Ejercicio 4
+
+Crear componente:
+
+AlumnoCard
+Ejercicio 5
+
+Tipar props del componente

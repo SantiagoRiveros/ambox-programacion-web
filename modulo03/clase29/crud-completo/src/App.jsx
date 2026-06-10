@@ -2,37 +2,74 @@ import { useState, useEffect } from "react";
 
 import api from "./services/api";
 import "./App.css";
-import userCard from "./components/userCard";
 import UserCard from "./components/userCard";
+import UserForm from "./components/UserForm";
 
 function App() {
   const [usuarios, setUsuarios] = useState([]);
+  const [editandoId, setEditandoId] = useState(null);
+  const [nuevoUsuario, setNuevoUsuario] = useState({ name: "", email: "" });
+  const [error, setError] = useState(null);
 
   async function obtenerUsuarios() {
-    const respuesta = await api.get("/users");
-    console.log(respuesta);
-    setUsuarios(respuesta.data);
+    try {
+      const respuesta = await api.get("/users");
+      setUsuarios(respuesta.data);
+    } catch (err) {
+      setError(err);
+      alert(err);
+    }
   }
 
   async function agregarUsuario(nombre, email) {
-    const respuesta = await api.post("/users", { name: nombre, email: email });
+    try {
+      await api.post("/users", { name: nombre, email: email });
 
-    setUsuarios([
-      ...usuarios,
-      {
-        id: usuarios.length - 1,
-        name: nombre,
-        email: email,
-      },
-    ]);
+      if (editandoId) {
+        await api.put(`/users/${editandoId}`, {
+          name: nombre,
+          email: email,
+        });
+
+        const nuevosUsuarios = usuarios.map((usuario) =>
+          usuario.id === editandoId
+            ? {
+                ...usuario,
+                name: nombre,
+                email: email,
+              }
+            : usuario,
+        );
+
+        setUsuarios(nuevosUsuarios);
+        setNuevoUsuario({ name: "", email: "" });
+        setEditandoId(null);
+      } else {
+        setUsuarios([
+          ...usuarios,
+          {
+            id: usuarios.length - 1,
+            name: nombre,
+            email: email,
+          },
+        ]);
+        setNuevoUsuario({ name: "", email: "" });
+      }
+    } catch (err) {
+      setError(err);
+      alert(err);
+    }
   }
 
   async function eliminarUsuario(id) {
-    await api.delete(`/users/${id}`);
-
-    const nuevosUsuarios = usuarios.filter((usuario) => usuario.id !== id);
-
-    setUsuarios(nuevosUsuarios);
+    try {
+      await api.delete(`/users/${id}`);
+      const nuevosUsuarios = usuarios.filter((usuario) => usuario.id !== id);
+      setUsuarios(nuevosUsuarios);
+    } catch (err) {
+      setError(err);
+      alert(err);
+    }
   }
 
   useEffect(() => {
@@ -42,11 +79,27 @@ function App() {
   return (
     <>
       <h1>Usuarios</h1>
-      {usuarios.length
-        ? usuarios.map((usuario) => (
-            <UserCard key={usuario.key} user={usuario} />
-          ))
-        : null}
+      <UserForm
+        onCreate={agregarUsuario}
+        nuevoUsuario={nuevoUsuario}
+        setNuevoUsuario={setNuevoUsuario}
+        editandoId={editandoId}
+      />
+      {!error && usuarios.length ? (
+        usuarios.map((usuario) => (
+          <UserCard
+            key={usuario.key}
+            user={usuario}
+            eliminarUsuario={eliminarUsuario}
+            setEditandoId={setEditandoId}
+            setNuevoUsuario={setNuevoUsuario}
+          />
+        ))
+      ) : error ? (
+        <h1>{error}</h1>
+      ) : (
+        <h3>Cargando</h3>
+      )}
     </>
   );
 }

@@ -1,0 +1,91 @@
+Hasta ahora trabajamos con:
+    -Variables
+    -Arrays
+    -Objetos
+    -Funciones
+
+Pero, cuando una aplicacion crece, aparecen problemas.
+Por ejemplo:
+
+Ven algo repetido?
+Estamos repitiendo la misma estructura, una y otra vez.
+Que pasa si hay 500 alumnos?
+
+Solucion -> Programacion Orientada a Objetos. (POO)
+POO es una forma de programar donde representamos elementos reales
+mediante objetos.
+
+Ejemplos:
+
+Un auto:
+    Marca
+    Modelo
+    Color
+
+Una persona:
+    Nombre
+    Edad
+    DNI
+
+Una cuenta bancaria:
+    Titular
+    Saldo
+    CBU
+
+
+Imaginemos un molde para hacer galletitas
+
+El molde:
+    Clase
+
+Las galletitas:
+    Objetos
+
+Conceptos Fundamentales:
+
+Clase
+    Plantilla para crear objetos
+
+Objeto
+    Instancia de una Clase
+
+Propiedad
+    Datos de un objeto
+
+Metodo
+    Acciones que puede realizar el objeto
+
+
+Clase:
+    Alumno 
+Propiedades:
+-Nombre
+-Edad
+Metodo:
+Saludar(z)
+
+Constructor -> Es una funcion especial
+Que se ejecuta automaticamente cuando creamos un
+objeto
+
+¿Que indica el this?
+Significa que algo es de este objeto actual, de esta Instancia
+es decir this apunta a una instancia en especifico.
+
+
+Objeto:
+const persona = {
+    nombre : "Carlos",
+    edad: 25
+}
+
+clase:
+class Persona{
+    constructor(nombre, edad){
+        this.nombre = nombre
+        this.edad = edad
+    }
+}
+
+Ventaja de la clase:
+Podemos crear infinitos objetos con la misma estructura

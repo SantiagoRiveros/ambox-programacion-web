@@ -1,0 +1,136 @@
+Ejercicio 1
+
+Crear una clase CuentaBancaria.
+
+Propiedades:
+
+    titular
+    saldo
+
+Métodos:
+
+depositar(monto)
+
+    Suma dinero al saldo.
+
+extraer(monto)
+
+    Resta dinero al saldo si hay suficiente.
+
+Si no:
+
+    Fondos insuficientes
+
+consultarSaldo()
+
+    Muestra el saldo actual.
+
+----------------------------------------
+
+Ejercicio 2 - Personaje RPG
+
+Crear una clase Personaje.
+
+Propiedades:
+
+    nombre
+    vida
+    ataque
+
+Métodos:
+
+    recibirDanio(cantidad)
+
+    Resta vida.
+
+Nunca puede quedar debajo de 0.
+
+curar(cantidad)
+
+    Suma vida.
+    
+mostrarEstado()
+
+Muestra:
+
+Nombre
+Vida
+Ataque
+
+----------------------------------------
+
+Ejercicio 3 - Auto
+
+Crear una clase Auto.
+
+Propiedades:
+
+    marca
+    modelo
+    combustible
+
+Métodos:
+
+conducir(km)
+
+    Cada 10 km consume 1 litro.
+
+cargarCombustible(litros)
+
+    Agrega combustible.
+
+mostrarInfo()
+Ejemplo
+auto.conducir(50)
+
+Consume:
+
+5 litros
+
+--------------------------------------------
+
+Ejercicio 4 - Alumno
+
+Crear una clase Alumno.
+
+Propiedades:
+
+nombre
+curso
+notas
+
+Notas será un array.
+
+Métodos:
+
+agregarNota(nota)
+calcularPromedio()
+aprobo()
+
+Si promedio >= 6
+
+Aprobó
+
+Si no
+
+Desaprobó
+
+--------------------------------------------
+
+Ejercicio 5 - Carrito de Compras
+
+Crear una clase Carrito.
+
+Propiedad:
+
+productos
+
+(Array)
+
+Métodos:
+
+agregarProducto(producto)
+eliminarProducto(nombre)
+mostrarProductos()
+calcularTotal()
+

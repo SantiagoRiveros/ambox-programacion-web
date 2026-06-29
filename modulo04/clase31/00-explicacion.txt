@@ -1,0 +1,112 @@
+Preguntas disparadoras:
+    -¿Donde se ejecut JS hasta ahora?
+    -¿Que limitaciones tiene JS en el navegador?
+    -¿Que hace React realmente?
+
+
+Hasta ahora el codigo corria en el navegador.
+osea Javascript -> Navegador.
+
+¿Que pasa si queremos leer un archivo?
+    ¿Se puede? NO 
+
+¿Que pasa si queremos crear una carpeta?
+    ¿Se puede? NO 
+
+¿Crear un servidor?
+    NO 
+
+¿Acceder al sistema operativo?
+    NO 
+
+
+¿PORQUE?
+El navegador esta hecho para proteger al usuario.
+Si cualquiera pudiera desde una pagina leer los archivos, seria un desastre.
+
+Javascript TENIA una enorme limitacion, que solo podia ejecutarse en navegador.
+
+ENTONCES... en 2009 nacio Node.js
+La idea es -> Que pasa si ejecutamos JS fuera del navegador?
+
+ANTES = JS -> Navegador
+AHORA = JS -> Node.js -> Sistema Operativo/Carpetas
+
+
+¿Que es node?
+No es un lenguaje
+No reemplaza Javascript
+No es un framework
+
+ES UN ENTORNO DE EJECUCION.
+
+entonces -> Podemos decir que Node permite ejecutar JS fuera del navegador.
+
+----------------------
+
+Imaginen JS como un motor.
+Ese motor necesita un vehiculo.
+Hasta ahora el vehiculo era -> Chrome (O cualquier navegador)
+
+Ahora existe otro vehiculo -> Node
+
+
+¿Que puedo hacer con NODE?
+    -Leer archivos
+    -Escribir archivos
+    -Crear servidores
+    -Conectarse a bases de datos
+    -Manejar Usuarios
+    -Crear APIs
+    -Ejecutar scripts
+
+-----------------------------------------
+
+¿Que es NPM?
+
+Node Package Manager
+Es el gestor de paquetes oficiales de node.
+
+¿Que es un paquete?
+Una libreria hecha por otras personas.
+
+¿Cuantos paquetes existen? -> Mas de 3 millones.
+
+
+------------------------------------
+
+Package.json
+
+npm init -y lo crea
+
+los scripts nos permiten "abreviar" comandos de la terminal
+
+ejemplo script -> holaMundo
+
+npm run holaMundo
+
+------------------------------------
+
+¿Que es un servidor?
+Es un programa que esta esperando solicitudes.
+ 
+Cliente -> SOLICITUD -> Servidor -> SOLICITUD -> Cliente
+
+Frontend -> REQUEST -> Server -> RESPONSE -> Frontend
+
+¿Como se comunican estas partes?
+
+Mediante HTTP -> HyperText Transfer Protocol
+
+Es el protocolo mediante el cual un cliente y un servidor se comunican.
+
+POST, PUT, GET, DELETE.
+
+Cuando nosotros en el navegador entramos a por ejemplo www.google.com 
+
+Chrome -> /GET a www.google.com -> Servidor de Google -> HTML -> Chrome
+
+
+-------------------
+
+Para que nuestro servidor quede a la "espera" vamos a usar nodemon.

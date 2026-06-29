@@ -1,0 +1,15 @@
+1- creamos nuestro package.json con npm init -y 
+2- creamos nuestro archivo server.js 
+3- importamos http asi:
+    const http = require("http")
+4- creamos el servidor:
+    http.createServer((request, response) => {
+        })
+5-Hacemos que el servidor escuche a una URL:
+    server.listen("3000")
+Ahora nuestro servidor corre en localhost:3000
+6- cambiamos el script en el package.json para que use
+nodemon
+7- instalamos nodemon con npm i nodemon
+8- agregamos las "rutas" dentro del createServer
+(ver ejempl en server.js)

@@ -3,7 +3,6 @@ const todos = require("./todos.json")
 
 // Creamos el servidor
 const server = http.createServer((request, response) => {
-    console.log(request.url)
     if (request.url == "/") {
         console.log("Inicio")
     } else if (request.url == "/usuarios") {

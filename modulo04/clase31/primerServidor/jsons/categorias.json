@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Periféricos"
+  },
+  {
+    "id": 2,
+    "nombre": "Monitores"
+  },
+  {
+    "id": 3,
+    "nombre": "Audio"
+  },
+  {
+    "id": 4,
+    "nombre": "Cámaras"
+  },
+  {
+    "id": 5,
+    "nombre": "Accesorios"
+  }
+]

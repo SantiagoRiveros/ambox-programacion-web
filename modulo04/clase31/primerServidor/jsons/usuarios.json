@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan Pérez",
+    "email": "juan@gmail.com",
+    "edad": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Ana Gómez",
+    "email": "ana@gmail.com",
+    "edad": 31
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos López",
+    "email": "carlos@gmail.com",
+    "edad": 28
+  },
+  {
+    "id": 4,
+    "nombre": "Lucía Fernández",
+    "email": "lucia@gmail.com",
+    "edad": 22
+  },
+  {
+    "id": 5,
+    "nombre": "Pedro Martínez",
+    "email": "pedro@gmail.com",
+    "edad": 35
+  }
+]

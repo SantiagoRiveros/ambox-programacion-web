@@ -1,0 +1,11 @@
+van a tener que armar lo siguiente:
+
+Una API que espere solicitudes en las siguientes URL:
+
+    /productos
+    /categorias
+    /usuarios
+    /ofertas
+    /carrito
+
+Y cada una de ellas debera devolver un JSON.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "producto": "Mouse Gamer",
+    "descuento": 20,
+    "precioAnterior": 25000,
+    "precioActual": 20000
+  },
+  {
+    "id": 2,
+    "producto": "Auriculares RGB",
+    "descuento": 15,
+    "precioAnterior": 85000,
+    "precioActual": 72250
+  },
+  {
+    "id": 3,
+    "producto": "Webcam Full HD",
+    "descuento": 10,
+    "precioAnterior": 48000,
+    "precioActual": 43200
+  }
+]

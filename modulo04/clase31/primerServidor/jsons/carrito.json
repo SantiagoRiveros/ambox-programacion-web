@@ -1,0 +1,20 @@
+[
+  {
+    "producto": "Mouse Gamer",
+    "cantidad": 2,
+    "precioUnitario": 25000,
+    "subtotal": 50000
+  },
+  {
+    "producto": "Monitor 24\"",
+    "cantidad": 1,
+    "precioUnitario": 220000,
+    "subtotal": 220000
+  },
+  {
+    "producto": "Auriculares RGB",
+    "cantidad": 1,
+    "precioUnitario": 85000,
+    "subtotal": 85000
+  }
+]

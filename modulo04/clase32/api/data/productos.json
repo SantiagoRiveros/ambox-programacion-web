@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mouse Gamer",
+    "precio": 25000,
+    "stock": 18,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 2,
+    "nombre": "Teclado Mecánico",
+    "precio": 60000,
+    "stock": 10,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "nombre": "Monitor 24\"",
+    "precio": 220000,
+    "stock": 5,
+    "categoria": "Monitores"
+  },
+  {
+    "id": 4,
+    "nombre": "Auriculares RGB",
+    "precio": 85000,
+    "stock": 7,
+    "categoria": "Audio"
+  },
+  {
+    "id": 5,
+    "nombre": "Webcam Full HD",
+    "precio": 48000,
+    "stock": 12,
+    "categoria": "Cámaras"
+  },
+  {
+    "id": 6,
+    "nombre": "HOLA MUNDO",
+    "precio": 723,
+    "stock": 32,
+    "categoria": "CORS"
+  }
+]

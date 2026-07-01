@@ -1,0 +1,21 @@
+Para usar express, nosotros lo primero que debemos ejecutar es:
+
+1- npm install express
+
+Pero... antes, corremos -> npm init -y
+
+
+
+GET (LEER) - POST (CREAR) - PUT (EDITAR) - DELETE (ELIMINAR)
+
+-----------------------------------
+
+PUERTOS:
+
+Vos podes indicar que una pc, en si es una IP.
+
+Imaginemos que nuestra pc es un edificio, la direccion de ese edificio es la IP.
+Adentro de un edificio hay muchas "puertas" o muchas oficinas.
+¿Con que oficina queres hablar de el edificio en la direccion IP?
+
+Ahi es cuando entra el puerto.

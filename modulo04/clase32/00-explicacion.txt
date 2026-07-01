@@ -19,3 +19,50 @@ Adentro de un edificio hay muchas "puertas" o muchas oficinas.
 ¿Con que oficina queres hablar de el edificio en la direccion IP?
 
 Ahi es cuando entra el puerto.
+
+
+----------------------------------
+
+ENDPOINTS:
+
+Formas de recibir informacion en un endpoint: Body, query o params
+
+PARAMS:
+GET /usuarios/15
+el 15 en este caso seria un param, y podria ser por ejemplo, el id de usuarios.
+Entonces, yo deberia tener un endpoint, el cual me busque al usuario de id 15, y lo devuelva cuando haga la peticion con ese param
+Es decir:
+    Tendriamos un GET que nos trae todos los usuarios -> GET ALL o FIND ALL
+    Tendriamos un GET que nos busca con el param que le enviamos, un usuario en especifico -> GET ONE o FIND ONE 
+
+COMO lo usamos en Express?
+app.get("/usuarios/:id", (req, res) => {
+
+    console.log(req.params)
+    console.log(req.params.id)
+})
+
+
+QUERY:
+Son Opcionales y nos da informacion adicional
+GET /productos?categoria=celulares
+
+GET localhost:3000/productos?categoria=celulares
+
+app.get("/productos", (req, res) => {
+
+    console.log(req.query) // 
+
+})
+
+Nos da esto:
+{
+    categoria: "celulares"
+}
+
+Se pueden usar varias:
+localhost:3000/productos?categoria=celulares&marca=samsung&precio=1000
+Esto tiene:
+    req.query.categoria
+    req.query.marca
+    req.query.precio

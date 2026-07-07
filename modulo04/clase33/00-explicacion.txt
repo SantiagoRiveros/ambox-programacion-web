@@ -1,0 +1,62 @@
+Preguntas:
+
+-Que es express?
+Es el framework backend mas popular para Node.
+
+-¿Que hace app.get()?
+Busca/Lee algo
+
+-¿Que diferencia hay entre GET Y POST?
+GET busca y POST crea.
+
+GET (LEE) POST (CREA) PUT (EDITA) DELETE (ELIMINA)
+
+-Que es req.body y para que lo uso?
+Analiza las solicitudes con cargas JSON.
+
+-Que es y para que usamos CORS? Que pasa si no lo usamos?
+Define la politica de origen de las solicitudes.
+Define desde donde se pueden realizar peticiones a la API.
+
+
+-----------------------------------
+
+Miremos index.js 
+
+Con 75 lineas, y 5 enpoints.
+
+Proyectos grandes, tienene +/- 200 endpoints.
+
+¿QUe vamos a hacer? UN index de 2000 lineas?
+
+Ejemplo:
+
+GET /usuarios
+GET /productos
+GET /ventas
+GET /compras
+GET /empleados
+POST /usuarios
+POST /productos
+... etc.
+
+----------------------------------------
+
+const productos = [
+  {
+    id: 1,
+    nombre: "Mouse",
+    precio: 25000
+  }
+]
+
+JSON.stringify(productos, ["id", "nombre"])
+
+REsultado:
+
+[
+  {
+    "id": 1,
+    "nombre": "Mouse",
+  }
+]

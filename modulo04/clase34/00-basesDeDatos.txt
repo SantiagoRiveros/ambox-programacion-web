@@ -1,0 +1,66 @@
+Hasta ahora donde guardabamos informacion:
+
+usuarios.json
+
+¿Que problemas tiene?
+
+    -Lento
+    -Cualquiera puede editarlo
+    -No busca rapido
+    -No sirve para numeros grandes de datos.
+
+Que es una base de datos?
+
+es un sistema estructurado, diseñado para almacenar, organizar y gestionar
+grandes volumenes de informacion.
+Su proposito no es solo guardar datos, sino permitir que sean consultados, modificados, y analizados
+de forma rapida, segura y eficiente.
+
+
+Hay dos grandes tipos de bases de datos:
+
+SQL y NoSQL / Relacionales y No Relacionales
+
+SQL -> MySQL, PostgreSQl, SQL Server, Oracle
+
+NoSQL -> MongoDB, Firebase, CouchDB, Redis
+
+-------------------------------------------------------------
+
+Relacionales:
+Tienen columnas y filas, y se conforman por tablas
+
+Ejemplo:
+
+Tabla usuarios
+
+id          name                email
+1           Santiago            santiago@g mail.com
+
+Tabla Compras
+
+id          valor           user_id
+1           30000           1
+
+Aparte de estar conformado por tablas, que a su vez tienen columnas y filas, hay 2 tipos de columnas aparte de las "normales"
+
+Primary Key PK (Clave Primaria) = La clave primaria es una columna cuyo valor es unico e irrepetible en la tabla
+que nos sirve para identificar de manera unica y sin lugar a ambiguedades a una fila en concreto
+
+Foreign Key FK (Clave Foranea) = Hace referencia a la clave primaria de otra tabla, para indicar relacion entre ambas.
+
+---------------------------------------------------------------
+
+Mongo:
+
+{
+    "id": 1,
+    "name": "Santiago",
+    "email": "santiago@gmail.com"   
+}
+
+SQL                                     MongoDB
+tablas                                  Colecciones
+Filas                                   Documentos 
+Columnas                                Campos 
+Esquema fijo                            Flexible

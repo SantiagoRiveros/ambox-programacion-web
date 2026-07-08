@@ -1,61 +1,42 @@
 import { Router } from "express"
 import fs from "fs"
+import { createUser, deleteUser, getOneUser, updateUser } from "../controllers/user/index.js"
 
 const user = Router()
 
+// GET http://localhost:3000/usuarios/3
+
 // Para traer todos los usuarios
-user.get("/", (req, res) => {
+user.get("/", (req, res) => { // GET a http://localhost:3000/usuarios
     const usuarios = fs.readFileSync("./data/usuarios.json")
     res.send(usuarios)
 })
 
 // Traer un solo usuario
-user.get("/:id", (req, res) => {
-    const id = req.params.id
-    let usuarios = JSON.parse(
-        fs.readFileSync("./data/usuarios.json")
-    )
-    const indice = usuarios.findIndex((usuario) => usuario.id == id)
-    res.send(usuarios[indice])
+user.get("/:id", (req, res) => { // GET http://localhost:3000/usuarios/3 ejemplo
+    res.send(getOneUser(req.params.id))
+    // Por query, por body, o por params
+    // params -> http://localhost:3000/usuarios/3
+    // el 3, al vos hacer una peticion de tipo GET
+    // y tener preparado un endpoint, node interpreta
+    // que es un params
 })
 
 // editar un usuario
-user.put("/:id", (req, res) => {
-    const id = req.params.id;
-    let usuarios = JSON.parse(
-        fs.readFileSync("../data/usuarios.json", "utf-8")
-    )
-    const indice = usuarios.findIndex((usuario) => usuario.id == id)
-    usuarios[indice] = req.body
-    fs.writeFileSync(
-        "./data/usuarios.json",
-        JSON.stringify(usuarios, null, 2)
-    )
+user.put("/:id", (req, res) => { // PUT http://localhost:3000/usuarios/2
+    updateUser(req.params.id)
     res.sendStatus(200)
 })
 
 // Crear los usuarios
-user.post("/", (req, res) => {
-    const nuevoUsuario = req.body
-    const usuarios = JSON.parse(
-        fs.readFileSync("./data/usuarios.json", "utf-8")
-    )
-    usuarios.push(nuevoUsuario)
-    fs.writeFileSync(
-        "./data/usuarios.json",
-        JSON.stringify(usuarios, null, 2)
-    )
+user.post("/", (req, res) => { // POST http://localhost:3000/usuarios/
+    createUser(req.body)
     res.sendStatus(200)
 })
 
 // Delete usuario
-user.delete("/:id", (req, res) => {
-    const id = req.params.id
-    let usuarios = JSON.parse(
-        fs.readFileSync("./data/usuarios.json", "utf-8")
-    )
-    usuarios = usuarios.filter((usuario) => usuario.id != id)
-    fs.writeFileSync("./data/usuarios.json", JSON.stringify(usuario, null, 2))
+user.delete("/:id", (req, res) => { // DELETE http://localhost:3000/usuarios/2
+    deleteUser(req.params.id)
     res.sendStatus(200)
 })
 

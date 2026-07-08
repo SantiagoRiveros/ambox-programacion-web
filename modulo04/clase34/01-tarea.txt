@@ -1,0 +1,12 @@
+Van a armar el esquema de datos de su ecommerce.
+
+Ejemplo:
+
+Producto
+--------
+nombre -> string
+precio -> decimal/entero
+descripcion -> string
+imagen -> string 
+categoria - string
+stock -> entero

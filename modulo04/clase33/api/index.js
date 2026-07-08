@@ -8,4 +8,4 @@ app.use(express.json())
 
 app.listen(3000)
 
-app.use("/", routes)
+app.use("/", routes) // TODAS las peticiones a http:localhost:3000/ van a usar routes
